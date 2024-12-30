@@ -11,7 +11,14 @@ To write a program to find the LU Decomposition of a matrix.
 1. Import the lu function from the scipy.linalg package.
 2.Get input from the user and print the L and U matrices using the print function.
 3.Import lu_factor and lu_solve from the scipy.linalg package and create a variable X to include these functions.
-4.Print the variable X and end program. 
+4.Print the variable X and end program.
+
+## Algorithm
+1.Import the numpy as np 
+2.Import the lu function from the scipy.linalg package.
+3.perform the lu decomposition on A using lu_factor
+4.solve the sysytem using lu_solve with the decomposition result(x) and B
+5.print the solution
 
 ## Program:
 (i) To find the L and U matrix
